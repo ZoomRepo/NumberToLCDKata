@@ -9,15 +9,17 @@ namespace NumberToLCDKata
             switch (v)
             {
                 case 0:
-                    return @"__
-|  |
-|__|";
+                    return @" _ 
+| |
+|_|";
                 case 1:
-                    return @"    
-   |
-   |";
+                    return @"   
+ | 
+ | ";
                 case 2:
-                    return 2;
+                    return @" _ 
+ _|
+|_";
                 case 3:
                     return 3;
                 case 4:
