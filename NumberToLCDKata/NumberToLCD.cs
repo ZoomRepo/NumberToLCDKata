@@ -21,11 +21,17 @@ namespace NumberToLCDKata
  _|
 |_";
                 case 3:
-                    return 3;
+                    return @" _ 
+ _|
+ _|";
                 case 4:
-                    return 4;
+                    return @"   
+|_|
+  |";
                 case 5:
-                    return 5;
+                    return @" _ 
+|_
+ _|";
                 case 6:
                     return 6;
                 case 7:
