@@ -33,13 +33,21 @@ namespace NumberToLCDKata
 |_
  _|";
                 case 6:
-                    return 6;
+                    return @" _ 
+|_ 
+|_|";
                 case 7:
-                    return 7;
+                    return @" _ 
+  |
+  |";
                 case 8:
-                    return 8;
+                    return @" _ 
+|_|
+|_|";
                 case 9:
-                    return 9;
+                    return @" _ 
+|_|
+ _|";
             }
             return "";
         }
