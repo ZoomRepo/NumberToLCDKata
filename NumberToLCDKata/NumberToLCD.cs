@@ -6,7 +6,9 @@ namespace NumberToLCDKata
     {
         internal object GetDigital(int v)
         {
-            return "__\n|  |\n|__|";
+            return @"__
+|  |
+|__|";
         }
     }
 }

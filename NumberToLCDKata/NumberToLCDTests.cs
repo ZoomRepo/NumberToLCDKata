@@ -4,6 +4,13 @@ namespace NumberToLCDKata
 {
     public class NumberToLCDTests
     {
+        private const string zero = @"__
+|  |
+|__|";
+         private const string one = @"    
+   |
+   |";
+
         [Fact]
         public void Given0ReturnsDigital0()
         {
@@ -11,7 +18,17 @@ namespace NumberToLCDKata
 
             var result = numberToLCD.GetDigital(0);
 
-            Assert.Equal("__\n|  |\n|__|", result);
+            Assert.Equal(zero, result);
+
+        }
+        [Fact]
+        public void Given1ReturnsDigital1()
+        {
+            NumberToLCD numberToLCD = new NumberToLCD();
+
+            var result = numberToLCD.GetDigital(1);
+
+            Assert.Equal(one, result);
 
         }
     }
