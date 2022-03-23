@@ -2,10 +2,11 @@
 
 namespace NumberToLCDKata
 {
+   
     internal class NumberToLCD
     {
         internal object GetDigital(int v)
-        {
+        { 
             switch (v)
             {
                 case 0:
